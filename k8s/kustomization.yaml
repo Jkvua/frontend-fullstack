@@ -5,8 +5,11 @@ resources:
 - service.yaml
 
 images:
+- name: jkvuacamila/provafinalfront-devops
+  newTag: latest
+- name: provafinalfront
+  newName: jkvuacamila/provafinalfront-devops
+  newTag: 774d937d69be2d00207bd471ac76ddc13e5da9b4
 - name: provafinalfront-devops
   newName: jkvuacamila/provafinalfront
   newTag: e4af0c0a900d9e60e572aaec9b36752e0e7855be
-- name: jkvuacamila/provafinalfront-devops
-  newTag: latest
