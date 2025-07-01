@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: provafinalfront-devops
+  labels:
+    app: provafinalfront-devops
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: provafinalfront-devops
+  template:
+    metadata:
+      labels:
+        app: provafinalfront-devops
+    spec:
+      containers:
+        - name: provafinalfront-devops
+          image: jkvuacamila/provafinalfront-devops:latest
+          ports:
+            - containerPort: 80
