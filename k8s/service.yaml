@@ -5,8 +5,9 @@ metadata:
 spec:
   selector:
     app: provafinalfront-devops
+  type: nodePort
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
-  type: ClusterIP
+      nodePort: 4444
