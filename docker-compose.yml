@@ -5,4 +5,4 @@ services:
     build: .
     container_name: todolist-front
     ports:
-      - "4444:80"
+      - "30444:80"
