@@ -5,9 +5,9 @@ metadata:
 spec:
   selector:
     app: provafinalfront-devops
-  type: nodePort
+  type: NodePort
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 4444
+      nodePort: 30444
