@@ -1,4 +1,4 @@
-# Frontend Fullstack
+# Frontend Fullstack 🚀
 
 Este repositório contém o frontend da aplicação de uma To-do-List desenvolvida com foco em integração com uma API backend. Sendo utilizadas as seguintes ferramentas e linguagens.
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
