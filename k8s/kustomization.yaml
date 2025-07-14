@@ -9,7 +9,7 @@ images:
   newTag: latest
 - name: provafinalfront
   newName: jkvuacamila/provafinalfront-devops
-  newTag: 55e968c7d056c3cc1ffb0ea5dfb77f9a03966649
+  newTag: 70936a7510166f7d6b9e59ed85272817787faf7f
 - name: provafinalfront-devops
   newName: jkvuacamila/provafinalfront
   newTag: e4af0c0a900d9e60e572aaec9b36752e0e7855be
